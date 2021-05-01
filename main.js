@@ -5,7 +5,7 @@ var addImageButton = document.querySelector('button');
 
 addImageButton.addEventListener('click',clickDetector);
 
-function clickDetector() {git
+function clickDetector() {
   if (imageUrlInput.value != '') {
   imageUrls.push(imageUrlInput.value);
   console.log(imageUrlInput.value);
