@@ -1,6 +1,8 @@
 # meme-gallery
 An interactive HTML, CSS and Javascript App
-Example screenshot:
+<div>
+  Example screenshot:
+</div>
 <p align:"middle">
   <img src="images/meme-gallery.JPG">
 </p>
