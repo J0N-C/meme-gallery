@@ -15,9 +15,11 @@ function clickDetector() {
   console.log(imageUrlInput.value);
   }
   imageUrlInput.value = "";
+  updateGallery();
 }
 
 function updateGallery () {
+  gallery.innerHTML = '';
   for (var i = 0; i < imageUrls.length; i++) {
   var imageElement = document.createElement('img');
   imageElement.className = "gallery-image"
@@ -25,3 +27,5 @@ function updateGallery () {
   gallery.appendChild(imageElement);
   }
 }
+
+updateGallery();
