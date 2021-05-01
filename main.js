@@ -19,6 +19,9 @@ function clickDetector() {
 
 function updateGallery () {
   for (var i = 0; i < imageUrls.length; i++) {
-  console.log(imageUrls[i]);
+  var imageElement = document.createElement('img');
+  imageElement.className = "gallery-image"
+  imageElement.src = imageUrls[i];
+  gallery.appendChild(imageElement);
   }
 }
